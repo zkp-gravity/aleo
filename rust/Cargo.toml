@@ -50,12 +50,14 @@ version = "1.0.91"
 
 [dependencies.snarkvm-console]
 features = [ "parallel" ]
-version = "0.9.14"
+#version = "0.9.14"
+path = "../../snarkVM/console"
 
 [dependencies.snarkvm-synthesizer]
 features = [ "parallel" ]
 optional = true
-version = "0.9.14"
+#version = "0.9.14"
+path = "../../snarkVM/synthesizer"
 
 [dependencies.snarkvm]
 optional = true

@@ -21,10 +21,12 @@ edition = "2021"
 members = [ "rust", "wasm" ]
 
 [workspace.dependencies.snarkvm]
-version = "0.9.14"
+path = "../snarkVM"
+#version = "0.9.14"
 
 [workspace.dependencies.snarkvm-wasm]
-version = "0.9.14"
+path = "../snarkVM/wasm"
+#version = "0.9.14"
 default-features = false
 
 [lib]
